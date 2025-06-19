@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", sans-serif;
+}
+.content-area {
+  padding-top: 65px;
+  padding-right: 65px;
+  padding-left: 65px;
+  background: rgb(166, 28, 28);
+  min-height: 202px;
+}
+
+.main-content {
+  padding-top: 40px;
+  padding-bottom: 31px;
+  margin-right: 275.5;
+  margin-left: 275.5;
+}
+/* Centered Search */
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin-top: 30px;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+.search-form input {
+  border: none;
+  flex: 1;
+  padding: 10px;
+
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.search-form input:focus,
+.search-form button:focus {
+  outline: none;
+}
+
+.search-form button {
+  display: flex;
+  border: none;
+  margin: 2px;
+  padding: 0px;
+  background: rgb(166, 28, 28);
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 56px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form button i {
+  font-size: 25px;
+}
+.search-form button:hover {
+  background: #0056b3;
+}
+
+.teks-hai {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.hasil-pencarian {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 175.5px;
+  margin-right: 175.5px;
+}
+
+.bar-kiri {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 0px;
+  width: 290px;
+  height: 1000px;
+}
+
+.bar-kanan {
+  background-color: rgb(255,255,255);
+  padding: 0px;
+  margin-left: 80px;
+  width: 624px;
+  height: 1000px;
+}
+
+.bar-list li {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+.bar-list li a {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.bar-kanan-item h2 {
+  margin-bottom: 24px;
+}
+
+.bar-kanan-isi p {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.gambar-isi img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}

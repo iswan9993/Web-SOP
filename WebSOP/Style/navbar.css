@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid rgb(238, 238, 238);
+  width: 100%;
+  padding: 0 24px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.navbar-container {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.logo img {
+  height: 37px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo li {
+  padding-left: 11px;
+}
+
+.logo li a {
+  text-decoration: none;
+  color: rgb(166, 28, 28);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.garis-vertikal {
+  width: 2px; /* ketebalan garis */
+  height: 30px; /* panjang garis */
+  background-color: gray; /* warna garis */
+  margin-left: 5px;
+  background-color: #ca1f3b;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 30px;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logout {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #60849c;
+  border-radius: 30px;
+}
+
+.logout ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logout ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.logout ul li a {
+  text-decoration: none;
+  color: rgb(95, 99, 104);
+  font-size: 16px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
