@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Navbar */
@@ -46,17 +47,6 @@
   color: white;
 }
 
-.logo li {
-  padding-left: 11px;
-}
-
-.logo li a {
-  text-decoration: none;
-  color: rgb(166, 28, 28);
-  font-size: 17px;
-  font-weight: 400;
-}
-
 .garis-vertikal {
   width: 2px; /* ketebalan garis */
   height: 30px; /* panjang garis */
@@ -68,9 +58,9 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
   margin: 0px;
   padding: 0;
+  gap: 20px;
 }
 
 .nav-links li a {
@@ -81,9 +71,9 @@
   gap: 30px;
   color: rgb(51, 51, 51);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  margin-right: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
 .logout {
@@ -116,6 +106,15 @@
 /* tambahan navbar admin */
 
 .nav-links li i.fa-solid {
-  font-size: 30px !important;
-  color: rgb(68, 7, 236) !important;
+  font-size: 25px;
+  color: rgb(51, 51, 51);
+}
+
+.pusat-bantuan a {
+  text-decoration: none;
+  color: rgb(166, 28, 28);
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 11px;
+  font-family: sans-serif;
 }

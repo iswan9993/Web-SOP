@@ -8,15 +8,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search SOP | CV. TOEDJOE SINAR GROUP</title>
-    <link rel="stylesheet" href="Style/style_index.css" />
-    <link rel="stylesheet" href="Style/footer.css" />
-    <link rel="stylesheet" href="Style/navbar.css" />
-    <link rel="stylesheet" href="Style/footer-utama.css" />
+    <link rel="stylesheet" href="../Style/index_admin.css" />
 
 </head>
 
 <body class="wrapper">
-    <?php include 'Navbar/navbar.php'; ?>
+    <?php include '../Navbar/navbar_admin.php'; ?>
+    <?php include '../Form/form.php'; ?>
 
     <div class="content-area">
         <div class="main-content">
@@ -61,14 +59,16 @@
                         animi obcaecati odit, blanditiis rem possimus deserunt doloremque eos odio impedit commodi et.
                     </p>
                     <div class="gambar-isi">
-                        <img src="Assets/1.jpeg" alt>
+                        <img src="../Assets/1.jpeg" alt>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
-<?php include 'Footer/footer_utama.php'; ?>
+
+<?php include '../Footer/footer_utama.php'; ?>
 
 
 
