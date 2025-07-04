@@ -7,16 +7,16 @@
     <span id="close-button" class="close-btn">&times;</span>
 
     <h3>Form Tambah SOP</h3>
-    <form id="sopForm" action="proses_sop.php" method="post">
+    <form id="sopForm" action="../Form/form_summernote.php" method="post">
         <label>Judul SOP:</label><br>
         <input type="text" name="judul" required><br><br>
-
         <label>Divisi:</label><br>
         <select name="divisi" required>
             <option value="">-- Pilih Divisi --</option>
-            <option value="HRD">HRD</option>
-            <option value="Produksi">Produksi</option>
-            <option value="Marketing">Marketing</option>
+            <option value="indoor">Indoor</option>
+            <option value="cs">Customer Service</option>
+            <option value="shipping">Shipping</option>
+            <option value="outdoor">Outdoor</option>
         </select><br><br>
 
         <label>Isi SOP:</label><br>

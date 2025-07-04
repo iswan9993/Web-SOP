@@ -1,0 +1,298 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to right, rgb(255, 255, 255), #3eb599);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.kontainer-utama {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 830px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.bar-kiri {
+  flex-direction: column;
+  background-color: #3eb599;
+  width: 400px;
+  margin: 0px;
+  display: flex;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.logo-unmul {
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 9px;
+}
+.logo-unmul img {
+  height: 35px;
+  width: 35px;
+}
+
+.teks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.teks h3 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  justify-content: center;
+  margin: 0px;
+  text-align: center;
+}
+
+.teks-personal {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.teks-personal p {
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 3px;
+}
+
+.atur-button {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atur-button button {
+  height: 40px;
+  width: 170px;
+  color: rgb(255, 255, 255);
+  background-color: #3eb599;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 11px;
+  border-radius: 20px;
+}
+
+.atur-button button:active {
+  background-color: rgb(41, 153, 138);
+  transform: scale(0.98);
+}
+.bar-kanan {
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-kanan-atas {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-acount h3 {
+  color: #3eb599;
+  font-size: 25px;
+  justify-content: center;
+  margin: 0px;
+  text-align: center;
+}
+
+.google-button {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.google-icon-only {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #dadce0;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.google-icon-only img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-text {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  color: #5f6368;
+  font-family: "Poppins", sans-serif;
+}
+
+.google-teks p {
+  color: rgb(122, 124, 128);
+  font-size: 14px;
+}
+
+.bar-kanan-tengah {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-bar {
+  position: relative;
+  width: 350px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* .group-bar img {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+} */
+
+.icon-kiri {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+
+.icon-kanan {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* ini yang membuat icon di kanan */
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.icon-kanan.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+  cursor: default;
+}
+
+button:disabled,
+.bar-kanan-bawah button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+#email-error{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.email-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+
+.name-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+
+.group-bar input {
+  padding-left: 35px; /* Untuk icon kiri */
+  padding-right: 35px; /* Untuk icon kanan */
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0px;
+  width: 170px;
+}
+
+#eye-open {
+  display: none;
+}
+
+.bar-kanan-tengah input {
+  height: 45px;
+  width: 350px;
+  margin: 3px;
+  border: none;
+  border: 1px solid #e7eceb;
+  background-color: #f5f9f8;
+}
+
+.bar-kanan-bawah {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-kanan-bawah button {
+  height: 40px;
+  width: 170px;
+  color: rgb(255, 255, 255);
+  background-color: #3eb599;
+  border: 1px solid rgb(214, 211, 211);
+  font-size: 11px;
+  border-radius: 20px;
+}
+
+.bar-kanan-bawah button:active {
+  background-color: rgb(41, 153, 138);
+  transform: scale(0.98);
+}
+
+#signup-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  /* Hilangkan efek aktif */
+  background-color: #3eb599;
+  border: 1px solid rgb(214, 211, 211);
+}
+
+#signup-btn:disabled:active {
+  /* Tidak ada perubahan warna atau transformasi saat di klik */
+  background-color: #3eb599;
+  transform: none;
+  box-shadow: none;
+}
